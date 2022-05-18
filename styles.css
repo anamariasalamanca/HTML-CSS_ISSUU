@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* STYLES */
+@font-face {
+    font-family: "Raleway";
+    src: url("./assets/fonts/Raleway/static/Raleway-Bold.ttf")
+    
+}
+body{
+    font-family: "Raleway", sans-serif;
+    background-color:rgb(255, 255, 254);
+    color:rgb(92, 92, 92);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+main{
+    margin: 40px;
+    width: 100%;
+}
+.h-div__logo-img{
+    margin: 40px;
+    
+}
+.h-div__text{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 40px;
+}
+.h-div__text a{
+    color: rgb(55, 42, 243);
+}
+.m-div__content h1{
+    margin: 40px;
+    margin-left: 60px;
+}
+.div__button{
+    display: flex;
+}
+.m-div__buttonleft{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(97, 121, 231);
+    color: white;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 60px;
+    font-family: "Raleway";
+}
+.m-div__buttonleft-img{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    justify-content: center;
+
+}
+.m-div__buttonrigth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(66, 91, 202);
+    color: white;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 60px;
+    font-family: "Raleway";
+}
+.m-div__content p{
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+.b-form{
+    width: 500px;
+    height: 200px;
+    margin: 50px;
+
+}
+.b-form_fieldset{
+    padding: 5px;
+    border: rgb(255, 255, 254);
+}
+.form-input{
+    padding: 5px; /* Separamos la letra del interior (contenido) en los inputs de los bordes */
+}
+.form-label{
+    display:block;
+    padding: 5px;
+}
+.form-input:valid {
+    /* background: lightgreen; */
+  }
+  
+  .form-input:invalid {
+    /* background: red; */
+  }
+  
+.form-input.form-input-text {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 25px;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 3px;
+  }
+.form-button{
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 254);
+    color: rgb(119, 119, 119);
+    font-size: 15px;
+    border: 2px rgba(128, 128, 128, 0.651) dashed;
+    border-radius: 18px;
+    width: 250px;
+    padding: 15px;
+    font-family: "Raleway";
+    cursor: pointer;
+    
+}
+.form-checkbox{
+    display: flex;
+    font-size: 16px;
+}
+.form-checkbox a{
+    color: rgb(55, 42, 243);
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.f-div{
+    display: flex;
+    width: 50%;
+}
+.f-div1{
+    display: flex;
+    width: 25%;
+    margin-right: 10px;
+    margin-left: 35px;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+.f-div2{
+    display: flex;
+    width: 25%;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-content: center;
+
+    
+      
+}

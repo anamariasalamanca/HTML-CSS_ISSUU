@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>ISSUU</title>
+  </head>
+  <body>
+    <header>
+      <div class="h-div__logo">
+          <img src="./assets/images/icons/logo.png" alt="logo_issu" class="h-div__logo-img" />
+      </div>
+      <div class="h-div__text">
+        <p>Already a user?</p>
+        <a href="">Sing in</a>
+      </div>
+    </header>
+    <main>
+      <div class="m-div__content">
+        <h1>Create an ISSUU account</h1>
+        <div class="div__button">
+          <button type="button" class="m-div__buttonleft">
+              <img src="./assets/images/icons/google2.jpeg" alt="Google" class="m-div__buttonleft-img" />
+            Sign in with Google
+          </button>
+
+          <button type="button" class="m-div__buttonrigth">
+              <img src="./assets/images/icons/google_svg.jpeg" alt="fb logo" class="m-div__buttonleft-img" />
+            Continue with Facebook
+          </button>
+        </div>
+        <p>Or with email</p>
+      </div>
+      <form action="/register" method="post" class="b-form">
+        <fieldset class="b-form_fieldset">
+          <label class="form-label" for="email">Email</label>
+          <input
+            class="form-input form-input-text"
+            type="text"
+            name="email"
+            id="email"
+            placeholder="E-mail"
+            required
+          />
+          <label class="form-label" for="password">Password</label>
+          <input
+            class="form-input form-input-text"
+            type="password"
+            name="pass"
+            id="pass"
+            placeholder="Password"
+            minlength="11"
+            required
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+          />
+          <label for="checkbox" class="form-checkbox">
+            <p>
+              I accept the <a href="">Terms of Service</a> and the
+              <a href="">Profesional Terms Of Service.</a>
+            </p>
+            <input id="checkbox" name="checkbox" type="checkbox" />
+          </label>
+        </fieldset>
+        
+        <button class="form-button">CREATE ACCOUNT</button>
+    </form>
+</main>
+<footer>
+<div class="f-div">
+    <div class="f-div1">
+    <p>Issuu Inc.</p>
+    </div>
+    <div class="f-div2">
+    <p>Terms</p>
+    <p>Privacy</p>
+    <p>DMCA</p>
+    </div>
+</div>
+
+</footer>
+
+</body>
+
+</html>
